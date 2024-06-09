@@ -1,0 +1,6 @@
+# 11 - Leia uma velocidade em m/s (metros por segundo) e apresente-a convertida para km/h (quilômetros por hora).
+# A formula de conversão é: K = M * 3.6, sendo que K é a velocidade em km/h e M em m/s.
+
+m = float(input('Informe a velocidade em m/s: '))
+k = m * 3.6
+print(f'A velocidade informada em km/h é: {k}')
